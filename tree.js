@@ -8,9 +8,6 @@ const readNodes = (tree = [], results = []) => {
   }
 }
 
-/**
- *
- * */
 const getTreeItem = (tree = [], id) => {
   for(let item of tree) {
     if (item.id === id) return item;
